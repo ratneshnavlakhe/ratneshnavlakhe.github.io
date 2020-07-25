@@ -14,7 +14,6 @@ body {
 #about {
   padding-top:50px;
   background: #fff;
-  height: 100vh;
 }
 
 #blog {
@@ -26,9 +25,9 @@ body {
 
 #contact {
   padding-top:50px;
-  color: #fff;
-  background: #00bcd4;
+  background: #333; 
 }
+
 .row {
   margin: 0 auto;
   width: 94%;
@@ -41,7 +40,7 @@ header {
 }
 
 section {
-  padding: 150px 0;
+  padding: 100px 0;
 }
 .highlight {
   color: #e31b6d;
@@ -73,11 +72,15 @@ section {
   margin-left: auto;
   margin-right: auto;
 }
-.about-header {
+.about-header, .contact-header {
   text-align: center;
   margin: auto;
   width: 50%;
   font-family: 'Raleway-Bold';
+}
+
+.contact-header {
+  color: white;
 }
 .container .description {
   color: #616161;
