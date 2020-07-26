@@ -36,7 +36,6 @@ body {
 
 header {
   padding: 156px 0 100px;
-  /*height:calc(100vh + 53px);*/
 }
 
 section {
@@ -107,4 +106,12 @@ section {
 @font-face {
   font-family: 'Raleway-SemiBold';
   src: url('fonts/Raleway-SemiBold.ttf');
+}
+.social-animation:hover {
+  transition: 0.9s;
+}
+.social-icon {
+  color: #fff;
+  padding-left: 10pt;
+  padding-right: 10pt;
 }
