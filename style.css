@@ -108,10 +108,12 @@ section {
   src: url('fonts/Raleway-SemiBold.ttf');
 }
 .social-animation:hover {
-  transition: 0.9s;
+  color: #e31b6d;
+}
+.social-icon a {
+  color: #fff;
 }
 .social-icon {
-  color: #fff;
   padding-left: 10pt;
   padding-right: 10pt;
 }
